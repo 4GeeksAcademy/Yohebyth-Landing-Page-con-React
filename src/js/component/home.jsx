@@ -31,21 +31,22 @@ const Home = () => {
 
 	return (
 		<>
-			<NavBar/>
-			<div className="container"></div>
-			<Jumbotron/>
-			<div className="row">
-				{cardContent.map((cardContentParam, index) => (
-					<GenericCard 
-						key={index} 
-						image={cardContentParam.image}
-						title={cardContentParam.title}
-						description={cardContentParam.description}
-					/>
-				) )}
-				
-			</div>	
-			<Footer/>
+			<NavBar />
+			<div className="container">
+				<Jumbotron />
+				<div className="row row-cols-1 row-cols-sm-4">
+					{cardContent.map((cardContentParam, index) => (
+						<GenericCard
+							key={index}
+							image={cardContentParam.image}
+							title={cardContentParam.title}
+							description={cardContentParam.description}
+						/>
+					))}
+
+				</div>				
+			</div>
+			<Footer />
 		</>
 	);
 };
