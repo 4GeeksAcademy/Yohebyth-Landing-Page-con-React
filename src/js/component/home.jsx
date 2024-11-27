@@ -8,24 +8,24 @@ const Home = () => {
 
 	const cardContent = [
 		{
-			image: "image1",
-			title: "titulo1",
-			description: "description1"
+			image: "rigoImage",
+			title: "Inteligencia Artificial Generativa",
+			description: "Herramientas como ChatGPT y DALL·E revolucionan la creación de contenidos, desde textos e imágenes hasta tareas automatizadas y creativas."
 		},
 		{
 			image: "image2",
-			title: "titulo2",
-			description: "description2"
+			title: "Computación Cuántica",
+			description: "Esta tecnología en desarrollo promete resolver problemas complejos rápidamente, transformando industrias como criptografía, química y optimización."
 		},
 		{
 			image: "image3",
-			title: "titulo3",
-			description: "description3"
+			title: "Realidad Extendida (XR)",
+			description: "La combinación de AR, VR y MR está transformando la interacción digital en educación, medicina y metaverso."
 		},
 		{
 			image: "image4",
-			title: "titulo4",
-			description: "description4"
+			title: "Ciberseguridad y Privacidad Digital",
+			description: "La ciberseguridad, prioritaria debido a la digitalización, incluye innovaciones en protección de datos, detección de amenazas con IA y privacidad"
 		}
 	];
 
@@ -34,7 +34,7 @@ const Home = () => {
 			<NavBar />
 			<div className="container">
 				<Jumbotron />
-				<div className="row row-cols-1 row-cols-sm-4">
+				<div className="row row-cols-1 row-cols-lg-4 row-cols-sm-2 gx-2">
 					{cardContent.map((cardContentParam, index) => (
 						<GenericCard
 							key={index}

@@ -11,12 +11,16 @@
 }
 .card-img{
     width: 100%;
-    height: 10rem;
+    height: auto;
     border: 1px solid black;
 }
-card img{
+.card-img img{
     width: 100%;
     height: auto;
+}
+.button{
+    border: 1px solid black;
+    text-align: center;
 }
 .footer{
     background-color: rgb(52, 58, 64);
