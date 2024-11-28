@@ -1,7 +1,9 @@
 
 .jumbotron{
-    border: 1px solid black;
-    background-color: rgb(191, 191, 191);
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210924/pngtree-computer-light-effect-technology-theme-creative-black-business-background-image_906517.png');
+    background-size:contain;
+    background-color: #bfbfbf;
+    color: white;
 }
 .row{
     margin: 2rem 0 2rem 0;
@@ -11,7 +13,7 @@
 }
 .card-img{
     width: 100%;
-    height: auto;
+    max-height: 14rem;
     border: 1px solid black;
 }
 .card-img img{

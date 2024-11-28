@@ -34,7 +34,7 @@ const Home = () => {
 			<NavBar />
 			<div className="container">
 				<Jumbotron />
-				<div className="row row-cols-1 row-cols-lg-4 row-cols-sm-2 gx-2">
+				<div className="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
 					{cardContent.map((cardContentParam, index) => (
 						<GenericCard
 							key={index}
